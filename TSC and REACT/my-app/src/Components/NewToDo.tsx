@@ -5,7 +5,7 @@ type NewTodoProps = {
   onAddTodo: (todoText: string) => void;
 };
 
-const NewToDo: React.FC<NewTodoProps> = (props) => {
+const NewToDo: React.FC<NewTodoProps> = (props) => {∆
   const textInputRef = useRef<HTMLInputElement>(null);
 
   const ToDosHandleSubmit = (e: React.FormEvent) => {
